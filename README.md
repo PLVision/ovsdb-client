@@ -15,7 +15,7 @@ ovsdb-client requires an opened OVS database port. In most cases it is enough to
 
 ## Installation from Github
 ```bash
- $ git clone git://github.com/plvision/ovsdb-client.git
+ $ git clone https://github.com/plvisiondevs/ovsdb-client.git
  $ cd ovsdb-client
  $ npm install
 ```
@@ -23,7 +23,7 @@ ovsdb-client requires an opened OVS database port. In most cases it is enough to
 ## Sample usage
 Retrieve schame for table 'Ports' from OVS database.
 ```javascript
-var client = require('ovsdb-client');
+ var client = require('ovsdb-client');
  var db_name = 'Open_vSwitch';
  var table_name = 'port'
  // retrieve 'Port' table schema from OVS Database
