@@ -3,6 +3,10 @@
     "name": "Ihor Chumak",
     "email": "developers@plvision.eu"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plvisiondevs/ovsdb-client.git"
+  },
   "name": "ovsdb-client",
   "version": "1.0.1",
   "description": "Client to an OVS database",
@@ -14,12 +18,7 @@
     "ovs",
     "ovsdb"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "dependencies": {
     "async": "0.9.0",
     "events": "1.0.1",
