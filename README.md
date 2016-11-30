@@ -1,4 +1,5 @@
 [![ovsdb-client Logo](http://plvision.eu/wp-content/themes/plvision/img/plvision-logo.png)](http://plvision.eu/)
+
 Fast OVSDB client for [node](http://nodejs.org).
 
 ## Prerequirements
@@ -21,7 +22,7 @@ ovsdb-client requires an opened OVS database port. In most cases it is enough to
 
 ## Sample usage
 Retrieve schame for table 'Ports' from OVS database.
-```
+```javascript
 var client = require('ovsdb-client');
  var db_name = 'Open_vSwitch';
  var table_name = 'port'
@@ -37,6 +38,3 @@ Maintainer: Ihor Chumak (developers@plvision.eu)
 
 ## License
  [MIT](LICENSE)
-
- 
- Ihor Chumak, Roman Gotsiy (developers@plvision.eu)
