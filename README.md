@@ -15,7 +15,7 @@ ovsdb-client requires an opened OVS database port. In most cases it is enough to
 
 ## Installation from Github
 ```bash
- $ git clone https://github.com/plvisiondevs/ovsdb-client.git
+ $ git clone https://github.com/PLVision/ovsdb-client.git
  $ cd ovsdb-client
  $ npm install
 ```
