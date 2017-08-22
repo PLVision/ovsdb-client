@@ -1,4 +1,4 @@
-[![ovsdb-client Logo](http://plvision.eu/wp-content/themes/plvision/img/plvision-logo.png)](http://plvision.eu/)
+[![PLVision Logo](https://plvision.eu/wp-content/themes/THEME/img/logo.svg)](http://plvision.eu/)
 
 Fast OVSDB client for [node](http://nodejs.org).
 
@@ -32,7 +32,7 @@ Retrieve schame for table 'Ports' from OVS database.
 ```
 
 ## People
-Copyright (c) 2014-2016 PLVision
+Copyright (c) 2014-2017 PLVision
 Authors of ovsdb-client are Ihor Chumak and Roman Gotsiy (developers@plvision.eu).
 Maintainer: Ihor Chumak (developers@plvision.eu)
 
